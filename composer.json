@@ -1,0 +1,21 @@
+{
+    "name": "org/Start",
+    "description": "",
+    "license": "MIT",
+    "keywords": [""],
+    "authors": [
+        {
+            "name": "Paul Lovvik",
+            "email": "paul.lovvik@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Org\\Start\\": "src"
+        }
+    }
+}
