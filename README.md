@@ -1,0 +1,4 @@
+start
+=====
+
+PHP application starter.
