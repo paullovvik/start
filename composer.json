@@ -1,21 +1,23 @@
 {
-    "name": "org/Start",
+    "name": "Start",
     "description": "",
-    "license": "MIT",
+    "license": "",
     "keywords": [""],
     "authors": [
         {
-            "name": "Paul Lovvik",
-            "email": "paul.lovvik@gmail.com"
+            "name": "Name",
+            "email": "example@example.com"
         }
     ],
     "require": {},
     "require-dev": {
-        "phpunit/phpunit": "3.7.*"
+        "phpunit/phpunit": "3.*",
+        "phpdocumentor/phpdocumentor": "2.*"
     },
     "autoload": {
-        "psr-4": {
-            "Org\\Start\\": "src"
+        "psr-0": {
+            "example\\": "src/",
+            "example\\tests\\": "tests/"
         }
     }
 }
